@@ -23,7 +23,7 @@ export default {
                 // centerMode: true, // โหมดกลาง เพื่อแสดงภาพข้างๆ
                 // centerPadding: '40px', // เพิ่ม padding ข้างๆ ภาพ
                 arrows: true, // แสดงปุ่ม navigation
-                dots: true, // แสดง pagination
+                // dots: true, // แสดง pagination
                 infinite: true, // เลื่อนวนไปเรื่อยๆ
             });
         });

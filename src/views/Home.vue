@@ -1,10 +1,19 @@
-
 <script setup>
 import SlideShow from '../components/SlideShow/index.vue'
+import BannerBeginner from '../components/BannerBeginner/index.vue'
+import QA from '../components/QA/index.vue'
+import FeaturedTrip from '../components/FeaturedTrip/index.vue'
 </script>
 
 <template>
-    <SlideShow />
+    <div class="overflow-hidden">
+        <SlideShow />
+        <div class="container mx-auto">
+            <BannerBeginner />
+            <QA />
+            <FeaturedTrip />
+        </div>
+    </div>
 </template>
 
 <style scoped>
