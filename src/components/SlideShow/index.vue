@@ -19,7 +19,7 @@ export default {
                 slidesToShow: 1, // แสดงเพียง 1 ภาพ
                 slidesToScroll: 1, // เลื่อน 1 ภาพ
                 autoplay: true, // เลื่อนอัตโนมัติ
-                autoplaySpeed: 2000, // ความเร็วในการเลื่อนอัตโนมัติ
+                autoplaySpeed: 3500, // ความเร็วในการเลื่อนอัตโนมัติ
                 // centerMode: true, // โหมดกลาง เพื่อแสดงภาพข้างๆ
                 // centerPadding: '40px', // เพิ่ม padding ข้างๆ ภาพ
                 arrows: true, // แสดงปุ่ม navigation

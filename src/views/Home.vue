@@ -3,6 +3,7 @@ import SlideShow from '../components/SlideShow/index.vue'
 import BannerBeginner from '../components/BannerBeginner/index.vue'
 import QA from '../components/QA/index.vue'
 import FeaturedTrip from '../components/FeaturedTrip/index.vue'
+import Equipment from '../components/Equipment/index.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import FeaturedTrip from '../components/FeaturedTrip/index.vue'
             <BannerBeginner />
             <QA />
             <FeaturedTrip />
+            <Equipment />
         </div>
     </div>
 </template>

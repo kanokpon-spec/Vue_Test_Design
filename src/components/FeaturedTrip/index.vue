@@ -1,18 +1,20 @@
 <template>
-    <div class="w-full mx-auto text-center space-y-6">
-        <h2 class="text-4xl font-semibold">Featured Trip</h2>
-        <div class="flex flex-col justify-center items-center gap-3">
-            <div class="flex justify-center gap-3">
-                <img src="/Gallery/1.jpeg" alt="">
-                <img src="/Gallery/2.jpeg" alt="">
-            </div>
-            <div class="flex flex-row-reverse justify-center gap-3">
-                <img src="/Gallery/4.jpeg" alt="">
-                <img src="/Gallery/3.jpeg" alt="">
-            </div>
-            <div class="flex justify-center gap-3">
-                <img src="/Gallery/5.jpeg" alt="">
-                <img src="/Gallery/6.jpeg" alt="">
+    <div class="w-full mx-auto py-12 px-4 text-center">
+        <div class="w-full text-center space-y-6">
+            <h2 class="text-4xl font-semibold">Featured Trip</h2>
+            <div class="flex flex-col justify-center items-center gap-3">
+                <div class="flex justify-center gap-3">
+                    <img src="/Gallery/1.jpeg" alt="">
+                    <img src="/Gallery/2.jpeg" alt="">
+                </div>
+                <div class="flex flex-row-reverse justify-center gap-3">
+                    <img src="/Gallery/4.jpeg" alt="">
+                    <img src="/Gallery/3.jpeg" alt="">
+                </div>
+                <div class="flex justify-center gap-3">
+                    <img src="/Gallery/5.jpeg" alt="">
+                    <img src="/Gallery/6.jpeg" alt="">
+                </div>
             </div>
         </div>
     </div>
