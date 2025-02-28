@@ -35,11 +35,6 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
     เมื่อเข้าถึงแล้วให้ทำให้รันคำสั่งนี้เพื่อติดตั้ง nodemodule ที่โปรเจคเรา:
 
     ```bash
-    npm i
-
-    หรือสามารถใช้คำสั่งนี้ได้เหมือนกัน:
-
-    ```bash
     npm install
 
 4. **รันโปรเจค:**
