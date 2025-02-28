@@ -43,3 +43,5 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 
     ```bash
     npm run dev
+
+    ขอบพระคุณครับที่ได้เข้ามารับชม และให้โอกาสผมได้ทำผลงานนี้ 🙏🏻😊
