@@ -1,4 +1,4 @@
-# Vue 3 + Vite
+# Vue 3 + Vite <img src="https://vuejs.org/images/logo.png" width="20">
 
 <p align="center">
   <img src="https://vuejs.org/images/logo.png" width="150">
