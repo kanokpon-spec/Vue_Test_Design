@@ -1,5 +1,7 @@
 # Vue 3 + Vite <img src="https://vuejs.org/images/logo.png" width="20">
 
+Web Preview on Netlify : https://smoothgraphtesting-nack.netlify.app/
+
 <p align="center">
   <img src="https://vuejs.org/images/logo.png" width="150">
 </p>
