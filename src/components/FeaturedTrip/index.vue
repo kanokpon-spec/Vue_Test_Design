@@ -2,18 +2,33 @@
     <div class="w-full mx-auto py-12 px-4 text-center">
         <div class="w-full text-center space-y-6">
             <h2 class="text-4xl font-semibold">Featured Trip</h2>
-
-            <swiper :modules="[SwiperAutoplay]" :slides-per-view="1" :space-between="10" :loop="true"
-                :autoplay="{ delay: 2500, disableOnInteraction: false }" :breakpoints="{
-                    768: { slidesPerView: 2, spaceBetween: 20 },
-                    1024: { slidesPerView: 3, spaceBetween: 30 }
-                }" class="w-full">
-                <swiper-slide v-for="(img, i) in images" :key="i">
-                    <div class="w-[343px] h-[343px] mx-auto">
-                        <img :src="img.src" :alt="img.alt" class="w-full h-full object-cover rounded-lg">
-                    </div>
-                </swiper-slide>
-            </swiper>
+            <div class="md:hidden">
+                <swiper :modules="[SwiperAutoplay]" :slides-per-view="1" :space-between="10" :loop="true"
+                    :autoplay="{ delay: 2500, disableOnInteraction: false }" :breakpoints="{
+                        768: { slidesPerView: 2, spaceBetween: 20 },
+                        1024: { slidesPerView: 3, spaceBetween: 30 }
+                    }" class="w-full">
+                    <swiper-slide v-for="(img, i) in images" :key="i">
+                        <div class="w-[343px] h-[343px] mx-auto">
+                            <img :src="img.src" :alt="img.alt" class="w-full h-full object-cover rounded-lg">
+                        </div>
+                    </swiper-slide>
+                </swiper>
+            </div>
+            <div class="md:flex flex-col justify-center items-center gap-3 hidden">
+                <div class="flex justify-center gap-3">
+                    <img src="/Gallery/1.jpeg" alt="">
+                    <img src="/Gallery/2.jpeg" alt="">
+                </div>
+                <div class="flex flex-row-reverse justify-center gap-3">
+                    <img src="/Gallery/4.jpeg" alt="">
+                    <img src="/Gallery/3.jpeg" alt="">
+                </div>
+                <div class="flex justify-center gap-3">
+                    <img src="/Gallery/5.jpeg" alt="">
+                    <img src="/Gallery/6.jpeg" alt="">
+                </div>
+            </div>
         </div>
     </div>
 </template>
