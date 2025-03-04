@@ -52,7 +52,7 @@ const isMenuOpen = ref(false);
             </div>
 
             <!-- Right Section -->
-            <div class="hidden xl:flex  items-center space-x-4">
+            <div class="hidden xl:flex  items-center space-x-5">
                 <button class="text-black hover:text-gray-700">
                     <img src="/search.svg" alt="Search">
                 </button>
